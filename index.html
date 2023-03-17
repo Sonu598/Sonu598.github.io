@@ -1,12 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Ishupriya</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/RK logo.png" rel="icon">
+  <link href="img/RK logo.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- github-calendar -->
+  <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
-<body>
-    <h1>My Portofolio</h1>
+
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="nav-menu">
+    <div class="container">
+      <a class="nav-link resume" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link home" class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about" class="nav-link js-scroll" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link resume" class="nav-link js-scroll" href="#about"></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#experience">Education</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link skill" class="nav-link js-scroll" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link project" class="nav-link js-scroll" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a  class="nav-link contact" class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Start /-->
+  <section id="home" class="intro route bg-image" style="background-image: url(img/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg) ;">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h5 class="intro-title1 mb-4">I am</h5>
+          <h1 id="user-detail-name" class="intro-title mb-4">Ishupriya Rath</h1>
+          <p id="user-detail-intro" class="intro-subtitle"><span class="text-slider-items">Full-Stack Web Developer ,Node js developer ,backend developer
+            </span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Intro End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full" id="projects-box">
+            <div class="row">
+              <div class="col-md-6" >
+                <div class="row" style="align-items: flex-end;">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="" class="img-fluid rounded b-shadow-a" class="home-img" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7" id="about-info">
+                    <div class="about-info">
+                      <p><span class="title-s"> Ishupriya Rath</span> <span></span></p>
+                      <p><span class="title-s">Full-Stack Developer </span> <span> </span></p>
+                      <p id="contact-email"><span class="title-s">ishupriyarath@gmail.com</span> <span></span></p>
+                      <p id="contact-phone"><span class="title-s">+91 97765 47647</span> <span></span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skills</p>
+                  <span>JavaScript</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>HTML</span> <span class="pull-right">100%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="45"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS</span> <span class="pull-right">65%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="65" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Android</span> <span class="pull-right">40%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Hello,
+                  </p>
+                  <p class="lead">
+                    &nbsp; &nbsp; I’m Ishupriya Rath and a multi talented human.
+                    Most of my time, Trying to self-learn more about coding and digital products.
+                    You can also call me as a Full-Stack developer or a Node backend developer .
+                    Also multi-disciplinary and fresher.
+                    But my journey as a developer started one and a half years ago.
+                  </p>
+                  <p class="lead">
+                    &nbsp; &nbsp; You can define me by the work I’ve done. But I define myself by the work I want to do.
+                    Skills can be taught, but personality is inherent. I prefer to keep learning,
+                    continue challenging myself, and do interesting things that matter.
+                  </p>
+                  <p class="lead">
+                    &nbsp; &nbsp; I’m a people-person with deep emotions and empathy.
+                    Able to inspire and am at my best when I share my creative expressions with others.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div style="ruby-align: center; margin-top: 2rem;">
+              <a href="https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing" id="resume-link-1" target="blank">
+                <button
+                  type="submit" id="resume-button-1" class="button button-a button-big button-rouded">View Resume
+                </button>
+              </a>
+
+              <!-- <a href="./docss/Ishupriya-Rath-Resume.pdf" id="resume-link-2" target="blank"></a> -->
+                <button id="resume-button-2" 
+                  type="submit" class="button button-a button-big button-rouded">Download Resume
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Start -->
+  <div class="experience" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Education
+            </h3>
+            <p class="subtitle-a">
+              My educational qualifications..
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+          <div class="timeline-text">
+            <div class="timeline-date">2022 - 2023</div>
+            <h2>Full-Stack Web Development (Full Time)</h2>
+            <h4>Masai School</h4>
+            <p>
+              <span class="span-education">Bengaluru, Karnataka</span>
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+          <div class="timeline-text">
+            <div class="timeline-date">2017 - 2020</div>
+            <h2>Bachelore in Commerce</h2>
+            <h4>Berhampur University</h4>
+            <p>
+              From Autonomus Science College <br>
+              <span class="span-education">Hinjilicut, Odisha</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Education End -->
+
+  <section id="resume"></section>
+
+  <!--/ Section Skills Start /-->
+
+<section id="skills">
+  <h2 class="title-a">SKILL</h2>
+  <div class="container">
+    <div class="skills-card">
+      <img src="./img/html.png" alt="Skill 1" class="skills-card-img">
+      <h5 class="skills-card-name">HTML</h5>
+    </div>
+    <div class="skills-card">
+      <img src="./img/css.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">CSS</h5>
+    </div>
+    <div class="skills-card">
+      <img src="./img/js.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">JavaScript</h5>
+    </div>
+    <div class="skills-card">
+      <img src="./img/node.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">Node.js</h5>
+    </div>
+    <div class="skills-card">
+      <img src="./img/express.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">Express</h5>
+    </div>
+    <div class="skills-card">
+      <img src="./img/mongo.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">MongoDB</h5>
+    </div>
+    <div align="center" class="skills-card">
+      <img src="./img/git.png" alt="Skill 2" class="skills-card-img">
+      <h5 class="skills-card-name">Git</h5>
+    </div>
+  </div>
+</section>
+
+<!-- section project Start -->
+
+<section id="projects">
+  <div class="container">
+    <h2 class="title-a">PROJECT</h2>
+    <div class="project-card">
+      <img src="/img/Screenshot 2023-03-16 090046.png" alt="Project 1">
+      <h3 class="project-title">Apnacliq</h3>
+      <p class="project-description">
+        Apnacliq is the clone of TataCliq. TataCliq is an e Commerce website and also provides Coupons for shopping on different websites. A collaborative project built by a team of 5, executed in 4days.
+      </p>
+      <p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript</p>
+      <a href="https://github.com/Sonu598/festive-lake-9492" class="project-github-link">GitHub Repository</a>
+      <a href="https://silver-zabaione-662095.netlify.app" class="project-deployed-link">Deployed Link</a>
+    </div>
+    <div class="project-card">
+      <img src="/img/Screenshot 2023-03-16 090851.png" alt="Project 1">
+      <h3 class="project-title">TaskTime</h3>
+      <p class="project-description">
+        TaskTime is the clone of DeskTime. DeskTime is a tracking website and also provides tracking facilities on different websites. A solo project, executed in 4 days.
+      </p>
+      <p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript, Express, Node.js</p>
+      <a href="https://github.com/Sonu598/spiky-crook-9700" class="project-github-link">GitHub Repository</a>
+      <a href="https://meek-axolotl-45cadb.netlify.app" class="project-deployed-link">Deployed Link</a>
+    </div>
+    </div>
+  </section>
+  <!--/ Section Skills End /-->
+
+  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">3</p>
+              <span class="counter-text">PROJECTS COMPLETED</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ios-people"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">0</p>
+              <span class="counter-text">TOTAL CLIENTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 col-lg-3">
+          <div class="counter-box pt-4 pt-md-0">
+            <div class="counter-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="counter-num">
+              <p class="counter">0</p>
+              <span class="counter-text">AWARD WON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- github calender -->
+  <div class="react-activity-calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+  </div>
+
+  <p align=center>
+    <div id="github-streak-stats" align=center>
+      <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
+        <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=Sonu598&theme=react&border=61dafb&hide_border=true" alt="Sonu598" />
+      </a>
+      <a id="github-top-langs" href="https://github.com/anuraghazra/github-readme-stats">
+        <img width=390 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sonu598&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
+      </a>
+      <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+        <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=Sonu598&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+      </a>
+    </div>
+    <br>
+    
+    <img id="github-stats-card" src="https://github-readme-activity-graph.cyclic.app/graph?username=Sonu598&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+  </p>
+
+  <!-- Section Quotes Start  -->
+
+  <div class="testimonial" id="review">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Quotes
+            </h3>
+            <p class="subtitle-a">
+              A few things that somebody said..
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="owl-carousel testimonials-carousel">
+        <div class="testimonial-item">
+          <div class="testimonial-img">
+            <img src="img/Apj Abdul Kalam.jpg" alt="Image">
+          </div>
+          <div class="testimonial-text">
+            <p>
+              “Don’t take rest after your first victory because if you fail in second,
+              more lips are waiting to say that your first victory was just luck.”
+            </p>
+            <h3>Dr. APJ Abdul Kalam</h3>
+            <h4>Former President of India</h4>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-img">
+            <img src="img/Stewart Brand.jpg" alt="Image">
+          </div>
+          <div class="testimonial-text">
+            <p>
+              “Once a new technology rolls over you,
+              if you're not part of the steamroller,
+              you're part of the road.”
+            </p>
+            <h3>Stewart Brand</h3>
+            <h4>American writer</h4>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-img">
+            <img src="img/Bill Gates.jpg" alt="Image">
+          </div>
+          <div class="testimonial-text">
+            <p>
+              “The advance of technology is based on making it fit in so that you don't really even notice it,
+              so it's part of everyday life.”
+            </p>
+            <h3>Bill Gates</h3>
+            <h4>Co-founder of Microsoft</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Quotes End  -->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/counters-bg.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row" style="align-items: center; padding: 5%;">
+                <div class="col-md-12" id="footer1">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      I'm seeking out opportunities to collaborate with companies and agencies,
+                      not just work for them. I want to bring my developing experience to the table
+                      where we can work together to solve real problems in a way that optimizes all
+                      of our respective experience and knowledge.
+                    </p>
+                    <p class="lead">Feel free to reach out through any platforms bellow: </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Bhanjanagar, Odisha, 761126</li>
+                      <li><span class="ion-ios-telephone"></span> +91 97765 47647</li>
+                      <li><span class="ion-email"></span> ishupriyarath@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://m.facebook.com/100013407722081/" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-facebook"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/ishupriya_sonu/" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-instagram"></i></span></a></li>
+                      <li><a id="contact-linkedin" href="https://www.linkedin.com/in/ishupriyarath" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-linkedin"></i></span></a></li>
+                      <li><a id="contact-github" href="https://github.com/Sonu598" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-github"></i></span></a></li>
+                      <li><a href="https://wa.me/919776547647?text=Hi" target="_blank"><span class="ico-circle"><i
+                              class="ion-social-whatsapp"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container" id="projects-box">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="lead" style="font-size: small;">
+              © ishupriyarath.in, All Right Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js">
+
+  </script>
+  <script>
+    GitHubCalendar(".react-activity-calendar", "Sonu598");
+    // or enable responsive functionality
+    GitHubCalendar(".react-activity-calendar", "Sonu598", { responsive: true });
+    resbutton=document.getElementById('resume-button-2');
+    resbutton.addEventListener('click',()=>{
+      let anchorele=document.createElement('a');
+      anchorele.href='./docss/Ishupriya-Rath-Resume.pdf';
+      anchorele.download='Ishupriya-Rath-Resume';
+      anchorele.target="_self"
+      anchorele.click();
+    })
+</script>
+
 </body>
+
 </html>
