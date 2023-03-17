@@ -46,14 +46,14 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link home" class="nav-link js-scroll active" href="#home">Home</a>
+            <a class="nav-link home js-scroll" class="nav-link js-scroll active" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link about" class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link about js-scroll" class="nav-link js-scroll" href="#about">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link resume" class="nav-link js-scroll" href="#about"></a>
+            <a class="nav-link resume js-scroll" class="nav-link js-scroll" href="#resume">Resume</a>
           </li>
 
           <li class="nav-item">
@@ -61,7 +61,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link skill" class="nav-link js-scroll" href="#skills">Skills</a>
+            <a class="nav-link skill js-scroll" class="nav-link js-scroll" href="#skills">Skills</a>
           </li>
 
           <li class="nav-item">
@@ -89,6 +89,11 @@
           <p id="user-detail-intro" class="intro-subtitle"><span class="text-slider-items">Full-Stack Web Developer ,Node js developer ,backend developer
             </span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+        <div style="ruby-align: center; margin-top: 2rem;">
+            <button id="resume-button-1" type="submit" class="button button-a button-big button-rouded">
+              View & Download Resume
+            </button>
         </div>
       </div>
     </div>
@@ -155,8 +160,8 @@
                     &nbsp; &nbsp; I’m Ishupriya Rath and a multi talented human.
                     Most of my time, Trying to self-learn more about coding and digital products.
                     You can also call me as a Full-Stack developer or a Node backend developer .
-                    Also multi-disciplinary and fresher.
-                    But my journey as a developer started one and a half years ago.
+                    Also multi-disciplinary and fresher. Confident with HTML, CSS, JavScript and node.js.
+                    My journey as a developer started one and a half years ago.
                   </p>
                   <p class="lead">
                     &nbsp; &nbsp; You can define me by the work I’ve done. But I define myself by the work I want to do.
@@ -169,24 +174,20 @@
                   </p>
                 </div>
               </div>
-
-            </div>
-            <div style="ruby-align: center; margin-top: 2rem;">
-              <a href="https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing" id="resume-link-1" target="blank">
-                <button
-                  type="submit" id="resume-button-1" class="button button-a button-big button-rouded">View Resume
-                </button>
-              </a>
-
-              <!-- <a href="./docss/Ishupriya-Rath-Resume.pdf" id="resume-link-2" target="blank"></a> -->
-                <button id="resume-button-2" 
-                  type="submit" class="button button-a button-big button-rouded">Download Resume
-                </button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="resume">
+    <h2 class="title-a">Resume</h2>
+    <div align="center" style="margin-top: 2rem;">
+      <button id="resume-button-2" type="submit" class="button button-a button-big button-rouded">
+        View & Download Resume
+      </button>
+  </div>
   </section>
 
   <!-- Education Start -->
@@ -231,8 +232,6 @@
     </div>
   </div>
   <!-- Education End -->
-
-  <section id="resume"></section>
 
   <!--/ Section Skills Start /-->
 
@@ -517,13 +516,23 @@
     GitHubCalendar(".react-activity-calendar", "Sonu598");
     // or enable responsive functionality
     GitHubCalendar(".react-activity-calendar", "Sonu598", { responsive: true });
-    resbutton=document.getElementById('resume-button-2');
-    resbutton.addEventListener('click',()=>{
-      let anchorele=document.createElement('a');
-      anchorele.href='./docss/Ishupriya-Rath-Resume.pdf';
-      anchorele.download='Ishupriya-Rath-Resume';
-      anchorele.target="_self"
-      anchorele.click();
+    resbutton1=document.getElementById('resume-button-1');
+    resbutton2=document.getElementById('resume-button-2');
+    resbutton1.addEventListener('click',()=>{
+      let anchorele1=document.createElement('a');
+      anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
+      anchorele1.download='Ishupriya-Rath-Resume';
+      anchorele1.target="_self"
+      anchorele1.click();
+      window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
+    })
+    resbutton2.addEventListener('click',()=>{
+      let anchorele2=document.createElement('a');
+      anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
+      anchorele2.download='Ishupriya-Rath-Resume';
+      anchorele2.target="_self"
+      anchorele2.click();
+      window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
     })
 </script>
 
