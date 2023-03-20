@@ -597,6 +597,7 @@ a:hover {
 
 #resume-button-1,#resume-button-2{
   background-color: #5e00bd;
+  border: none;
 }
 #resume-button-1:hover{
   background-color: #1B1B1B;
