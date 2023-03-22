@@ -37,8 +37,9 @@
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="nav-menu">
     <div class="container">
       <a class="nav-link resume" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+      <button class="navbar-toggler collapsed" id="resume-button-1" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <a id="resume-link-1" href="./docss/Ishupriya-Rath-Resume.pdf" download target="_blank">Download & View Resume</a>
         <span></span>
         <span></span>
         <span></span>
@@ -92,9 +93,11 @@
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
         <div style="ruby-align: center; margin-top: 2rem;">
-            <button id="resume-button-2" type="submit" class="button button-a button-big button-rouded">
+<!--             <button id="resume-button-2" type="submit" class="button button-a button-big button-rouded">
               Download & View Resume
-            </button>
+            </button> -->
+            <button id="resume-button-2" class="button button-a button-big button-rouded"><a id="resume-link-1" href="./docss/Ishupriya-Rath-Resume.pdf" download
+            target="_blank">Download & View Resume</a></button>
         </div>
       </div>
     </div>
@@ -496,24 +499,24 @@
     GitHubCalendar(".react-activity-calendar", "Sonu598");
     // or enable responsive functionality
     GitHubCalendar(".react-activity-calendar", "Sonu598", { responsive: true });
-    resbutton1=document.getElementById('resume-button-1');
-    resbutton2=document.getElementById('resume-button-2');
-    resbutton1.addEventListener('click',()=>{
-      let anchorele1=document.createElement('a');
-      anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
-      anchorele1.download='Ishupriya-Rath-Resume';
-      anchorele1.target="_self"
-      anchorele1.click();
-      window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
-    })
-    resbutton2.addEventListener('click',()=>{
-      let anchorele2=document.createElement('a');
-      anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
-      anchorele2.download='Ishupriya-Rath-Resume';
-      anchorele2.target="_self"
-      anchorele2.click();
-      window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
-    })
+//     resbutton1=document.getElementById('resume-button-1');
+//     resbutton2=document.getElementById('resume-button-2');
+//     resbutton1.addEventListener('click',()=>{
+//       let anchorele1=document.createElement('a');
+//       anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
+//       anchorele1.download='Ishupriya-Rath-Resume';
+//       anchorele1.target="_self"
+//       anchorele1.click();
+//       window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
+//     })
+//     resbutton2.addEventListener('click',()=>{
+//       let anchorele2=document.createElement('a');
+//       anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
+//       anchorele2.download='Ishupriya-Rath-Resume';
+//       anchorele2.target="_self"
+//       anchorele2.click();
+//       window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
+//     })
 </script>
 
 </body>
