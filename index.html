@@ -36,7 +36,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="nav-menu">
     <div class="container">
-      <a class="nav-link resume" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
+      <a class="nav-link navbar-brand js-scroll" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -65,11 +65,17 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link projects" class="nav-link js-scroll" href="#projects">Projects</a>
+            <a class="nav-link projects js-scroll" href="#projects">Projects</a>
           </li>
 
           <li class="nav-item">
-            <a  class="nav-link contact" class="nav-link js-scroll" href="#contact">Contact</a>
+            <a  class="nav-link contact js-scroll" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link reume"><button id="resume-button-1" type="submit" class="button button-a button-big button-rouded">
+              Download Resume
+            </button></a>
+            
           </li>
         </ul>
       </div>
@@ -92,7 +98,7 @@
         </div>
         <div style="ruby-align: center; margin-top: 2rem;">
             <button id="resume-button-2" type="submit" class="button button-a button-big button-rouded">
-              Download Resume
+              Download & View Resume
             </button>
         </div>
       </div>
@@ -490,14 +496,14 @@
       let anchorele1=document.createElement('a');
       anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele1.download='Ishupriya-Rath-Resume';
-      anchorele1.target="_self"
+      anchorele1.target="_blank"
       anchorele1.click();
     })
     resbutton2.addEventListener('click',()=>{
       let anchorele2=document.createElement('a');
       anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele2.download='Ishupriya-Rath-Resume';
-      anchorele2.target="_self"
+      anchorele2.target="_blank"
       anchorele2.click();
       window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
     })
