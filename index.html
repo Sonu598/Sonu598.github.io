@@ -500,22 +500,20 @@
     GitHubCalendar(".react-activity-calendar", "Sonu598", { responsive: true });
     resbutton1=document.getElementById('resume-button-1');
     resbutton2=document.getElementById('resume-button-2');
-    resbutton1.addEventListener('click',(e)=>{
-      e.preventDefault()
+    resbutton1.addEventListener('click',()=>{
       let anchorele1=document.createElement('a');
       anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele1.download='Ishupriya-Rath-Resume';
       anchorele1.target="_blank"
       anchorele1.click();
     })
-    resbutton2.addEventListener('click',(e)=>{
-      e.preventDefault()
+    resbutton2.addEventListener('click',()=>{
       let anchorele2=document.createElement('a');
       anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele2.download='Ishupriya-Rath-Resume';
-      anchorele2.target="_blank"
+      // anchorele2.target="_blank"
       anchorele2.click();
-      window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
+      window.open('./docss/Ishupriya-Rath-Resume.pdf')
     })
 </script>
 
