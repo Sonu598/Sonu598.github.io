@@ -595,12 +595,12 @@ a:hover {
 //--//-->   RESUME
 ======================================*/
 
-#resume-button-1,#resume-button-2{
+#resume-button-2{
   background-color: #5e00bd;
   border: none;
 }
-#resume-button-1:hover{
-  background-color: #1B1B1B;
+/* #resume-button-1:hover{
+  background-color: #1B1B1B; */
 }
 #resume-button-2:hover{
   background-color: #1B1B1B;
@@ -1586,13 +1586,6 @@ footer .credits a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
-}
-
-/*======================================
-//--//-->   buyMeACoffee
-======================================*/
-.buyMeACoffee{
-  margin-top: 4%;
 }
 
 /*======================================

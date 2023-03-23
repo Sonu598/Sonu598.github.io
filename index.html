@@ -36,7 +36,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="nav-menu">
     <div class="container">
-      <a class="nav-link navbar-brand js-scroll" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
+      <a class="nav-link" class="navbar-brand js-scroll" href="#page-top" style="font-weight: 620;">Ishupriya</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -51,11 +51,7 @@
           <li class="nav-item">
             <a class="nav-link about js-scroll" class="nav-link js-scroll" href="#about">About</a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link resume js-scroll" class="nav-link js-scroll" href="#resume">Resume</a>
-          </li>
-
+          
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#experience">Education</a>
           </li>
@@ -69,14 +65,9 @@
           </li>
 
           <li class="nav-item">
-            <a  class="nav-link contact js-scroll" href="#contact">Contact</a>
+            <a  class="nav-link contact" class="nav-link js-scroll" href="#contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <a  class="nav-link reume"><button id="resume-button-1" type="submit" class="button button-a button-big button-rouded">
-              Download Resume
-            </button></a>
-            
-          </li>
+         
         </ul>
       </div>
     </div>
@@ -98,7 +89,7 @@
         </div>
         <div style="ruby-align: center; margin-top: 2rem;">
             <button id="resume-button-2" type="submit" class="button button-a button-big button-rouded">
-              Download & View Resume
+              Download Resume
             </button>
         </div>
       </div>
@@ -153,15 +144,6 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <section id="resume">
-    <h2 class="title-a">Resume</h2>
-    <div align="center" style="margin-top: 2rem;">
-      <button id="resume-button-1" type="submit" class="button button-a button-big button-rouded">
-        View & Download Resume
-      </button>
-  </div>
   </section>
 
   <!-- Education Start -->
@@ -257,6 +239,26 @@
       <p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript</p>
       <a href="https://github.com/Sonu598/festive-lake-9492" class="project-github-link">GitHub Repository</a>
       <a href="https://silver-zabaione-662095.netlify.app" class="project-deployed-link">Deployed Link</a>
+    </div>
+    <div class="project-card">
+      <img src="/img/Screenshot 2023-03-16 090046.png" alt="Project 1">
+      <h3 class="project-title">Apnacliq</h3>
+      <p class="project-description">
+        Apnacliq is the clone of TataCliq. TataCliq is an e Commerce website and also provides Coupons for shopping on different websites. A collaborative project built by a team of 5, executed in 4days.
+      </p>
+      <p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript</p>
+      <a href="https://github.com/Sonu598/festive-lake-9492" class="project-github-link">GitHub Repository</a>
+      <a href="https://silver-zabaione-662095.netlify.app" class="project-deployed-link">Deployed Link</a>
+    </div>
+    <div class="project-card">
+      <img src="/img/Screenshot 2023-03-16 090851.png" alt="Project 1">
+      <h3 class="project-title">TaskTime</h3>
+      <p class="project-description">
+        TaskTime is the clone of DeskTime. DeskTime is a tracking website and also provides tracking facilities on different websites. A solo project, executed in 4 days.
+      </p>
+      <p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript, Express, Node.js</p>
+      <a href="https://github.com/Sonu598/spiky-crook-9700" class="project-github-link">GitHub Repository</a>
+      <a href="https://meek-axolotl-45cadb.netlify.app" class="project-deployed-link">Deployed Link</a>
     </div>
     <div class="project-card">
       <img src="/img/Screenshot 2023-03-16 090851.png" alt="Project 1">
@@ -496,14 +498,14 @@
       let anchorele1=document.createElement('a');
       anchorele1.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele1.download='Ishupriya-Rath-Resume';
-      anchorele1.target="_blank"
+      anchorele1.target="_self"
       anchorele1.click();
     })
     resbutton2.addEventListener('click',()=>{
       let anchorele2=document.createElement('a');
       anchorele2.href='./docss/Ishupriya-Rath-Resume.pdf';
       anchorele2.download='Ishupriya-Rath-Resume';
-      anchorele2.target="_blank"
+      anchorele2.target="_self"
       anchorele2.click();
       window.open('https://drive.google.com/file/d/1-bWU1i-YG2KC5O6dvJVUH1NA4NtgVHIC/view?usp=sharing')
     })
