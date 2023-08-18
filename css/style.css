@@ -452,7 +452,7 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #5e00bd;
+  background-color: #ffffff;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -478,7 +478,7 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #5e00bd;
+  background-color: #ffffff;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
@@ -746,7 +746,7 @@ a:hover {
 }
 
 .about-mf .about-img{
-  margin-bottom: 2rem;
+  margin-top: 4rem;
 }
 
 #about-info{
@@ -901,6 +901,7 @@ border-color: transparent #dddddd transparent transparent;
   margin: 0 0 5px 0;
   font-size: 22px;
   font-weight: 600;
+  text-align: left;
 }
 
 .experience .timeline .timeline-text h4 {
